@@ -3463,19 +3463,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DABOY\\.nuget\\packages\\": {}
+    "C:\\Users\\ramba\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
+      "projectUniqueName": "C:\\Users\\ramba\\OneDrive\\Documents\\ENTJAVA MAIN\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
       "projectName": "iSkedyul",
-      "projectPath": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
-      "packagesPath": "C:\\Users\\DABOY\\.nuget\\packages\\",
-      "outputPath": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\obj\\",
+      "projectPath": "C:\\Users\\ramba\\OneDrive\\Documents\\ENTJAVA MAIN\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
+      "packagesPath": "C:\\Users\\ramba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ramba\\OneDrive\\Documents\\ENTJAVA MAIN\\iSkedyul\\iSkedyul\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DABOY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ramba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

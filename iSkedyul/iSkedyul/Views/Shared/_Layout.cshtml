@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/iSkedyul.styles.css" asp-append-version="true" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -28,12 +28,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <!-- Add the Signup link to your navigation menu -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Account" asp-action="Signup">Signup</a>
+                        </li>
+                        <!-- Add the Appointment tab to your navigation menu -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Appointment" asp-action="Register">Appointment</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div ="container">
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
