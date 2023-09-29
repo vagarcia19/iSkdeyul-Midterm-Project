@@ -1,11 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>c5f84fbb-cde1-4cd1-92b6-71164b0b7fee</UserSecretsId>
+    <UserSecretsId>7b3379f6-5112-41dd-99b9-1ebbfa5c300d</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\EntityManager\" />
+    <Folder Include="Models\ViewModel\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
