@@ -15,7 +15,7 @@ namespace iSkedyul.Models.DB
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MidtermsDB;Initial Catalog=DemoDB;Integrated Security=True;Multiple Active Result Sets=True");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MidtermsDB;Initial Catalog=DBiSkedyul;Integrated Security=True;Multiple Active Result Sets=True");
             }
         }
 

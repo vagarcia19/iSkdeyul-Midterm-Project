@@ -14,10 +14,10 @@ namespace iSkedyul.Models.ViewModel
         public string LastName { get; set; }
         [Required(ErrorMessage = "*")]
         [Display(Name = "Date of Appointment")]
-        public DateTime DateOfAppointment { get; set; }
+        public DateOnly DateOfAppointment { get; set; }
         [Required(ErrorMessage = "*")]
         [Display(Name = "Time of Appointment")]
-        public DateTime TimeOfAppointment { get; set; }
+        public TimeOnly TimeOfAppointment { get; set; }
         [Required(ErrorMessage = "*")]
         [Display(Name = "Purpose")]
         public string Purpose { get; set; }

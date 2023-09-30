@@ -6,13 +6,17 @@ namespace iSkedyul.Controllers
 {
     public class ServicesController : Controller
     {
-        public ActionResult SubmitApplication()
+        /// <summary>
+        /// IMPORTANT!! RETURN VIEW ALWAYS!
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Appointment()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult SignUp(Appointments appointment)
+        public ActionResult Appointment(Appointments appointment)
         {
             AppointmentManager appointmentManager = new AppointmentManager();
             if (!string.IsNullOrWhiteSpace(appointment.Purpose))

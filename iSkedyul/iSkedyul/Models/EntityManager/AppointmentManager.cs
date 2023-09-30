@@ -14,10 +14,17 @@ namespace iSkedyul.Models.EntityManager
                     AppointmentID = ap.AppointmentID,
                     FirstName = ap.FirstName,
                     LastName = ap.LastName,
-                    DateOfAppointment = ap.DateOfAppointment,
+                    DateOfAppointment = ap.DateOfAppointment.Date,
                     TimeOfAppointment = ap.TimeOfAppointment,
                     Purpose = ap.Purpose
                 };
+
+                Console.WriteLine(appt.AppointmentID);
+                Console.WriteLine(appt.FirstName);
+                Console.WriteLine(appt.LastName);
+                Console.WriteLine(appt.DateOfAppointment);
+                Console.WriteLine(appt.TimeOfAppointment);
+                Console.WriteLine(appt.Purpose);
 
                 dBContext.Appointments.Add(appt);
                 dBContext.SaveChanges();
