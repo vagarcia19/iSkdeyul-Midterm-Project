@@ -5,20 +5,28 @@
 
 
 <div>
-    <img class="background" src="~/image/background.jpg">
-    <div class="bacgkroundText">
-        <h1>
-            Welcome to iSkedyul
-        </h1>
-     </div>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            What are you looking for?
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <div class="background">
+        <div class="bacgkroundText">
+            <h1>
+                Welcome to iSkedyul
+            </h1>
+        </div>
+        <div class="dropdown">
+            <select class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ">
+                <option class="dropdown-item" value="">What are you looking for?</option>
+                <option class="dropdown-item" value="Action">Action</option>
+                <option class="dropdown-item" value="AAction">Another action</option>
+                <option class="dropdown-item" value="SElse">Something else</option>
+            </select>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const selection = document.getElementById('select');
+            select.addEventListener('change', function handleChange(event) {
+                console.log(event.target.value);
+                //ADD FUNCTION HERE TO OPEN SERVICE MODAL OR PAGE
+            });
+        });
+    </script>
 </div>

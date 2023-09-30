@@ -22,16 +22,25 @@ body {
 }
 
 .background {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../image/background.jpg");
     object-fit: cover;
-    width: 17in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
     height: 10in;
+}
 
-}
 .bacgkroundText {
+    text-align: center;
     position: absolute;
-    top: 3in;
-    left:470px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 1));
 }
+
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 95px;
@@ -40,6 +49,12 @@ h1 {
 
 .dropdown {
     position: absolute;
-    top: 5in;
-    padding-left:45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.dropdown-item {
+    text-align: left;
+    position: absolute;
 }
