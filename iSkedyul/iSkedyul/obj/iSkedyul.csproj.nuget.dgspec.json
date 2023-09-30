@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj": {}
+    "D:\\ENTJava\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj": {}
   },
   "projects": {
-    "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj": {
+    "D:\\ENTJava\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
+        "projectUniqueName": "D:\\ENTJava\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
         "projectName": "iSkedyul",
-        "projectPath": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
-        "packagesPath": "C:\\Users\\DABOY\\.nuget\\packages\\",
-        "outputPath": "C:\\Ron\\Entrep\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\obj\\",
+        "projectPath": "D:\\ENTJava\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\iSkedyul.csproj",
+        "packagesPath": "C:\\Users\\SAYAKA\\.nuget\\packages\\",
+        "outputPath": "D:\\ENTJava\\iSkdeyul-Midterm-Project\\iSkedyul\\iSkedyul\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DABOY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAYAKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
