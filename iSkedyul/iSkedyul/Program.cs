@@ -21,7 +21,13 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "Default",
+    pattern: "{controller=Home}/{action=Index}/{id?}",
+    defaults: new { controller = "Home" });
+
+app.MapControllerRoute(
+    name: "Services",
+    pattern: "Services/{action=Index}/{id?}",
+    defaults: new { controller = "Services" }); // Updated pattern for the "Account" controller.
 
 app.Run();
